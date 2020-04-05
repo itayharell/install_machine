@@ -8,9 +8,9 @@
     append: yes
     groups: wheel
     comment: user for rookie
--  name: make sure splunk is installed
-   become: yes
-   yum:
-     state: present
-     name: splunk
+- name: make sure splunk is installed
+  become: yes
+  yum:
+    state: present
+    name: splunk
 
